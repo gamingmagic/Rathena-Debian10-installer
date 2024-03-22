@@ -386,15 +386,7 @@ cd /home/
 
 
 echo "${BLUE}Step 17/${STEPS}:${NC} Preparing auto-config import files"
-echo "//fenrirmachine\n" >> /home/rathena/Desktop/rAthena/conf/import-tmpl/char_conf.txt
-echo "userid: ${USERID}" >> /home/rathena/Desktop/rAthena/conf/import-tmpl/char_conf.txt
-echo "passwd: princess21" >> /home/rathena/Desktop/rAthena/conf/import-tmpl/char_conf.txt
-echo "char_ip: ${SERVER_IP}" >> /home/rathena/Desktop/rAthena/conf/import-tmpl/char_conf.txt
 
-echo "//fenrirmachine\n" >> /home/rathena/Desktop/rAthena/conf/import-tmpl/map_conf.txt
-echo "userid: ${USERID}" >> /home/rathena/Desktop/rAthena/conf/import-tmpl/map_conf.txt
-echo "passwd: princess21" >> /home/rathena/Desktop/rAthena/conf/import-tmpl/map_conf.txt
-echo "map_ip: ${SERVER_IP}" >> /home/rathena/Desktop/rAthena/conf/import-tmpl/map_conf.txt
 
 echo "//fenrirmachine\n" >> /home/rathena/Desktop/rAthena/conf/import-tmpl/inter_conf.txt
 echo "//use_sql_db: yes" >> /home/rathena/Desktop/rAthena/conf/import-tmpl/inter_conf.txt

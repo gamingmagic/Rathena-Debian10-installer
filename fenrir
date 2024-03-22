@@ -51,7 +51,6 @@ apt-get -qy install expect wget sudo > /dev/null
 echo ""
 
 
-
 echo "${BLUE}Step 3/${STEPS}:${NC} Installing MySQL Stuff"
 apt-get -qy install libaio1 libdbd-mariadb-perl libdbi-perl libterm-readkey-perl libhtml-template-perl > /dev/null
 export DEBIAN_FRONTEND=noninteractive 
@@ -64,26 +63,34 @@ apt-get -qy install mariadb-server
 /usr/bin/expect <<EOF
 spawn /usr/bin/mysql_secure_installation
 
-expect "Enter current password for root (enter for none):"
-send "ragnarok\r"
-
-expect "Change the root password?"
-send "n\r"
-
-expect "Remove anonymous users?"
-send "y\r"
-
-expect "Disallow root login remotely?"
-send "y\r"
-
-expect "Remove test database and access to it?"
-send "y\r"
-
-expect "Reload privilege tables now?"
-send "y\r"
-
-interact
+expect {
+    "Enter current password for root (enter for none):" {
+        send "\r"
+        exp_continue
+    }
+    "Change the root password?" {
+        send "n\r"
+        exp_continue
+    }
+    "Remove anonymous users?" {
+        send "y\r"
+        exp_continue
+    }
+    "Disallow root login remotely?" {
+        send "y\r"
+        exp_continue
+    }
+    "Remove test database and access to it?" {
+        send "y\r"
+        exp_continue
+    }
+    "Reload privilege tables now?" {
+        send "y\r"
+        exp_continue
+    }
+}
 EOF
+
 
 
 

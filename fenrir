@@ -88,8 +88,13 @@ expect {
         send "y\r"
         exp_continue
     }
+    "Switch to unix_socket authentication [Y/n]" {
+        send "n\r"
+        exp_continue
+    }
 }
 EOF
+
 
 
 

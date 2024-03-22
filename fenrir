@@ -42,10 +42,8 @@ yes | apt-get -qy update > /dev/null
 yes | apt-get -qy upgrade > /dev/null
 echo ""
 
-apt-get install xfonts-base
-apt-get install xfonts-100dpi 
-apt-get install xfonts-75dpi
-apt-get install dbus-x11
+apt-get -qy install xfonts-base xfonts-100dpi xfonts-75dpi dbus-x11
+
 
 
 

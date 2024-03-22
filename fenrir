@@ -40,9 +40,8 @@ echo "This script will now begin to install stuff on your system. Please be pati
 echo "${BLUE}Step 1/${STEPS}:${NC} Updating your OS"
 yes | apt-get -qy update > /dev/null
 yes | apt-get -qy upgrade > /dev/null
+yes | apt-get -qy install xfonts-base xfonts-100dpi xfonts-75dpi dbus-x11 > /dev/null
 echo ""
-
-apt-get -qy install xfonts-base xfonts-100dpi xfonts-75dpi dbus-x11
 
 
 

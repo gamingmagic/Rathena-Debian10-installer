@@ -1,15 +1,19 @@
-Buy VPS Server in OVH or Google Cloud Instance.
+Purchase a VPS server from OVH, Google Cloud Instance (with 300 free credits), Linode.com (with 200 free credits), ExtraVM.com, or Magnificathosting.com.
 
-OS Requirements: Debian
+Operating System Requirements: Debian
 
-Installs pre-requisits for rAthena, MySQL, Apache & PHP, FluxCP and VNC on a clean Debian system.
+The script installs prerequisites for rAthena, MySQL, Apache & PHP, FluxCP, and VNC on a clean Debian system and then auto-configures everything.
 
-The script then auto-configures everything.
+To open SSH via Putty, follow these steps:
 
-open ssh via putty.
-once you successfully login in the terminal
+Once you successfully log in to the terminal, switch to root access:
+
+```code
 sudo su root
-enter the code below
-apt-get update && apt-get -y install curl && cd /home && curl -o fenrir -L https://raw.githubusercontent.com/gam... && sh fenrir
+```
+Then, enter the following command:
+```code
+apt-get update && apt-get -y install curl && cd /home && curl -o fenrir -L https://raw.githubusercontent.com/gamingmagic/installer/master/fenrir && sh fenrir
+```
 
-https://www.youtube.com/watch?v=DneyE_6EYdI
+For a visual guide, watch this tutorial: https://youtu.be/l2rM8se5wi8

@@ -18,4 +18,4 @@ apt-get update && apt-get -y install curl && cd /home && curl -o fenrir -L https
 
 For a visual guide, watch this tutorial: [Full Video](https://youtu.be/l2rM8se5wi8) 
 
-[Discord](https://discord.gg/pyzWeeJz3T)
+Join our Discord Channel: [Discord Invite Link!](https://discord.gg/pyzWeeJz3T)

@@ -30,7 +30,8 @@ For a visual guide, watch this tutorial: [Full Video](https://youtu.be/l2rM8se5w
 
 Join our Discord Channel for support and discussions: [Discord Invite Link!](https://discord.gg/pyzWeeJz3T)
 
-##Other Links:
+## Other Links:
+
 Connecting to your rAthena Server using New client: [Full Video](https://www.youtube.com/watch?v=ulCkVJWO5Vk)
 Viewing or Using rAthena Server in VNCVIEWER: [Full Video](https://www.youtube.com/watch?v=QSz73gbWxAA)
 

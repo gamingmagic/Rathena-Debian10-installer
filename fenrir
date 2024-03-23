@@ -151,7 +151,7 @@ echo ""
 echo "${BLUE}Step 8/${STEPS}:${NC} Setting Up Desktop Stuff"
 mkdir -p /usr/share/fenrirmachine/
 cd /usr/share/fenrirmachine/
-wget -q https://github.com/gamingmagic/unattended-installer/raw/master/files.zip
+wget -q https://github.com/gamingmagic/installer/raw/master/files.zip
 unzip -qq files.zip
 cd links
 mkdir -p /home/rathena/Desktop

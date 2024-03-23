@@ -32,4 +32,4 @@ Join our Discord Channel for support and discussions: [Discord Invite Link!](htt
 
 ## Credits
 
-This installer is based on the installation guide provided by [rAthena](https://github.com/rathena/rathena/wiki/installations). Special thanks to the rAthena for their contributions to the Ragnarok Private community.
+This installer is based on the installation guide provided by [rAthena](https://github.com/rathena/rathena/wiki/installations) and Crying Akkarin. Special thanks to the rAthena for their contributions to the Ragnarok Private community.

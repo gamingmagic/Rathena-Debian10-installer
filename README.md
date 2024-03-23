@@ -16,4 +16,6 @@ Then, enter the following command:
 apt-get update && apt-get -y install curl && cd /home && curl -o fenrir -L https://raw.githubusercontent.com/gamingmagic/installer/master/fenrir && sh fenrir
 ```
 
-For a visual guide, watch this tutorial: https://youtu.be/l2rM8se5wi8
+For a visual guide, watch this tutorial: [Full Video](https://youtu.be/l2rM8se5wi8) 
+
+Join our Discord Channel: [Discord Invite Link!](https://discord.gg/pyzWeeJz3T)

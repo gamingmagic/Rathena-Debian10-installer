@@ -1,4 +1,4 @@
-# rAthena Installer
+# Rathena Installer
 
 Purchase a VPS server from OVH, Google Cloud Instance (with 300 free credits), Linode.com (with 200 free credits), ExtraVM.com, or Magnificathosting.com.
 

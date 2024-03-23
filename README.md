@@ -1,6 +1,6 @@
 Purchase a VPS server from OVH, Google Cloud Instance (with 300 free credits), Linode.com (with 200 free credits), ExtraVM.com, or Magnificathosting.com.
 
-Operating System Requirements: Debian
+Operating System Requirements: Debian 11
 
 The script installs prerequisites for rAthena, MySQL, Apache & PHP, FluxCP, and VNC on a clean Debian system and then auto-configures everything.
 

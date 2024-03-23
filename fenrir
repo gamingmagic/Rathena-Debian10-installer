@@ -252,6 +252,7 @@ mysql -u root -pragnarok ragnarok  < /home/rathena/Desktop/rAthena/sql-files/ite
 mysql -u root -pragnarok ragnarok  < /home/rathena/Desktop/rAthena/sql-files/item_db_usable.sql
 mysql -u root -pragnarok ragnarok  < /home/rathena/Desktop/rAthena/sql-files/item_db2.sql
 mysql -u root -pragnarok ragnarok  < /home/rathena/Desktop/rAthena/sql-files/item_db2_re.sql
+mysql -u root -pragnarok ragnarok  < /home/rathena/Desktop/rAthena/sql-files/item_db_re.sql
 mysql -u root -pragnarok ragnarok  < /home/rathena/Desktop/rAthena/sql-files/item_db_re_equip.sql
 mysql -u root -pragnarok ragnarok  < /home/rathena/Desktop/rAthena/sql-files/item_db_re_etc.sql
 mysql -u root -pragnarok ragnarok  < /home/rathena/Desktop/rAthena/sql-files/item_db_re_usable.sql
@@ -388,27 +389,29 @@ cd /home/
 echo "${BLUE}Step 17/${STEPS}:${NC} Preparing auto-config import files"
 
 echo "//fenrirmachine\n" >>  /home/rathena/Desktop/rAthena/conf/import-tmpl/login_conf.txt
-
 echo "bind_ip: ${SERVER_IP}" >> /home/rathena/Desktop/rAthena/conf/import-tmpl/login_conf.txt
 
 echo "//fenrirmachine\n" >> /home/rathena/Desktop/rAthena/conf/import-tmpl/char_conf.txt
-
 echo "char_ip: ${SERVER_IP}" >> /home/rathena/Desktop/rAthena/conf/import-tmpl/char_conf.txt
 echo "bind_ip: ${SERVER_IP}" >> /home/rathena/Desktop/rAthena/conf/import-tmpl/char_conf.txt
 
 echo "//fenrirmachine\n" >> /home/rathena/Desktop/rAthena/conf/import-tmpl/map_conf.txt
-
 echo "map_ip: ${SERVER_IP}" >> /home/rathena/Desktop/rAthena/conf/import-tmpl/map_conf.txt
 echo "bind_ip: ${SERVER_IP}" >> /home/rathena/Desktop/rAthena/conf/import-tmpl/map_conf.txt
 
+echo "//fenrirmachine\n" >> /home/rathena/Desktop/rAthena/conf/import-tmpl/web_conf.txt
+echo "bind_ip: ${SERVER_IP}" >> /home/rathena/Desktop/rAthena/conf/import-tmpl/web_conf.txt
+
 echo "//fenrirmachine\n" >> /home/rathena/Desktop/rAthena/conf/import-tmpl/inter_conf.txt
-echo "//use_sql_db: yes" >> /home/rathena/Desktop/rAthena/conf/import-tmpl/inter_conf.txt
 echo "login_server_pw: princess21" >> /home/rathena/Desktop/rAthena/conf/import-tmpl/inter_conf.txt
 echo "ipban_db_pw: princess21" >> /home/rathena/Desktop/rAthena/conf/import-tmpl/inter_conf.txt
 echo "char_server_pw: princess21" >> /home/rathena/Desktop/rAthena/conf/import-tmpl/inter_conf.txt
 echo "map_server_pw: princess21" >> /home/rathena/Desktop/rAthena/conf/import-tmpl/inter_conf.txt
 echo "log_db_pw: princess21" >> /home/rathena/Desktop/rAthena/conf/import-tmpl/inter_conf.txt
+echo "web_server_pw: princess21" >> /home/rathena/Desktop/rAthena/conf/import-tmpl/inter_conf.txt
 echo ""
+
+
 
 touch /home/rathena/Desktop/Info.txt
 echo "fenrirmachine\n" >> /home/rathena/Desktop/Info.txt

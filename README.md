@@ -37,4 +37,4 @@ Viewing or Using rAthena Server in VNCVIEWER: [Full Video](https://www.youtube.c
 
 ## Credits
 
-This installer is based on the installation guide provided by [rAthena](https://github.com/rathena/rathena/wiki/installations) and Crying-Akkarin. Special thanks to the rAthena for their contributions to the Ragnarok Private community.
+This installer is based on the installation guide provided by [rAthena](https://github.com/rathena/rathena/wiki/installations) and [Akkarin](https://rathena.org/board/profile/3433-akkarin/). Special thanks to the rAthena for their contributions to the Ragnarok Private community.

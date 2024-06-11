@@ -3,7 +3,7 @@
 Purchase a VPS server from OVH, 
 Google Cloud Instance (with 300 free credits), 
 Linode.com (with 200 free credits), 
-https://my.ddps.jp/index.php?rp=/store/r9-7900-10gbps-tokyo,
+my.ddps.jp/,
 ExtraVM.com, 
 or Magnificathosting.com.
 

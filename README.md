@@ -33,7 +33,7 @@ For a visual guide, watch this tutorial: [Full Video](https://youtu.be/l2rM8se5w
 
 ## Discord Channel
 
-Join our Discord Channel for support and discussions: [Discord Invite Link!](https://discord.gg/pyzWeeJz3T)
+Join our Discord Channel for support and discussions: [Discord Invite Link!](https://discord.gg/NGkMaPEKJ9)
 
 ## Other Links:
 
